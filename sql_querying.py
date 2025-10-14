@@ -10,8 +10,8 @@ df.to_sql("MATCHES", conn, index=False, if_exists="replace")
 
 # Query here using SQL command
 query = """
-SELECT season, month FROM MATCHES
-WHERE month = "August" and season = "2019-2020"
+SELECT home_team, away_team, result FROM MATCHES
+WHERE match_week = 10 and season = "2024-2025"
 """
 results = pd.read_sql(query, conn)
 
