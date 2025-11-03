@@ -10,10 +10,16 @@ import numpy as np
 import json
 
 def calculate_team_matchweek_averages(historical_data_path='prem_results.csv',
-                                     output_json='team_matchweek_goal_averages.json'):
+                                     output_json='team_matchweek_goal_averages.json',
+                                     n_seasons=4):
     """
     Calculate average goals for/against/diff for each team at each matchweek
-    across all their historical Premier League seasons.
+    across the LAST N seasons of Premier League history.
+    
+    Parameters:
+    -----------
+    n_seasons : int
+        Number of recent seasons to use (default: 4)
     
     Returns:
     --------
@@ -32,12 +38,20 @@ def calculate_team_matchweek_averages(historical_data_path='prem_results.csv',
     """
     
     print("="*70)
-    print("CALCULATING HISTORICAL MATCHWEEK GOAL AVERAGES")
+    print(f"CALCULATING HISTORICAL MATCHWEEK GOAL AVERAGES (LAST {n_seasons} SEASONS)")
     print("="*70)
     
     df = pd.read_csv(historical_data_path)
     print(f"\nLoaded {len(df)} historical matches")
-    print(f"Seasons: {df['season'].nunique()}")
+    print(f"Total seasons available: {df['season'].nunique()}")
+    
+    # Filter to last N seasons
+    all_seasons = sorted(df['season'].unique(), reverse=True)
+    last_n_seasons = all_seasons[:n_seasons]
+    df = df[df['season'].isin(last_n_seasons)].copy()
+    
+    print(f"Using last {n_seasons} seasons: {sorted(last_n_seasons)}")
+    print(f"Filtered to {len(df)} matches")
     
     # Get all unique teams
     teams = sorted(list(set(df['home_team'].unique()) | set(df['away_team'].unique())))
@@ -133,7 +147,7 @@ def calculate_team_matchweek_averages(historical_data_path='prem_results.csv',
     return team_averages
 
 
-def get_h2h_goal_averages_from_history(df, up_to_date=None):
+def get_h2h_goal_averages_from_history(df, up_to_date=None, n_seasons=4):
     """
     Calculate H2H goal averages for all team pairs from actual historical data.
     
@@ -143,6 +157,8 @@ def get_h2h_goal_averages_from_history(df, up_to_date=None):
         Historical results data
     up_to_date : str (optional)
         Only use matches up to this date (format: 'YYYY-MM-DD')
+    n_seasons : int
+        Number of recent seasons to use (default: 4)
     
     Returns:
     --------
@@ -157,12 +173,18 @@ def get_h2h_goal_averages_from_history(df, up_to_date=None):
     """
     
     print("\n" + "="*70)
-    print("CALCULATING H2H GOAL AVERAGES FROM HISTORY")
+    print(f"CALCULATING H2H GOAL AVERAGES FROM HISTORY (LAST {n_seasons} SEASONS)")
     print("="*70)
+    
+    # Filter to last N seasons
+    all_seasons = sorted(df['season'].unique(), reverse=True)
+    last_n_seasons = all_seasons[:n_seasons]
+    df = df[df['season'].isin(last_n_seasons)].copy()
+    print(f"Using last {n_seasons} seasons: {sorted(last_n_seasons)}")
     
     if up_to_date:
         df = df[pd.to_datetime(df['date']) <= pd.to_datetime(up_to_date)].copy()
-        print(f"Using matches up to {up_to_date}")
+        print(f"Filtered to matches up to {up_to_date}")
     
     h2h_averages = {}
     
@@ -227,7 +249,7 @@ if __name__ == "__main__":
     
     # Calculate H2H averages
     df = pd.read_csv('prem_results.csv')
-    h2h_averages = get_h2h_goal_averages_from_history(df)
+    h2h_averages = get_h2h_goal_averages_from_history(df, n_seasons=4)
     
     # Save H2H averages
     # Convert tuple keys to strings for JSON

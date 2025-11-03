@@ -9,6 +9,33 @@ average goals scored in the first 20 games across all their PL seasons.
 
 This provides realistic, matchweek-appropriate goal features throughout
 the entire simulation without requiring actual future goal data.
+
+================================================================================
+HOW TO UPDATE THE CURRENT MATCHWEEK FOR PREDICTIONS
+================================================================================
+
+TO UPDATE WHICH MATCHWEEK TO START PREDICTIONS FROM:
+
+Go to line 486 (at the bottom of this file in the main section) and change:
+    start_simulation_from_mw=8
+    
+For example:
+- If you have results through MW10 and want to predict from MW11 onwards:
+    start_simulation_from_mw=11
+    
+- If you have results through MW15 and want to predict from MW16 onwards:
+    start_simulation_from_mw=16
+
+NOTE: Your fixtures CSV file should contain actual results (with goal data) 
+up to the matchweek BEFORE the one you start predicting from.
+
+After running this script:
+1. It will update: fixtures_2025_2026_simulated.csv
+2. Then run: python create_predicted_standings.py
+   This will generate the predicted final standings table based on all results
+   (both actual results and predictions combined)
+
+================================================================================
 """
 
 import pandas as pd
@@ -379,62 +406,17 @@ def simulate_season(model,
             
             h2h_results[key].append(pred)
     
-    # Generate final table
-    print("\n" + "="*70)
-    print("PREDICTED FINAL TABLE 2025-2026")
-    print("="*70)
-    
-    # Get final positions and historical goal data for MW38
-    final_positions = compute_positions(team_stats, team_averages, 38)
-    
-    table_data = []
-    for team, stats in team_stats.items():
-        # Use historical average goals for final display
-        goal_features = get_team_goal_features_for_matchweek(team, 38, team_averages)
-        
-        table_data.append({
-            'Position': final_positions[team],
-            'Team': team,
-            'Played': stats['played'],
-            'Won': stats['wins'],
-            'Drawn': stats['draws'],
-            'Lost': stats['losses'],
-            'GF': round(goal_features['goals_for'], 1),
-            'GA': round(goal_features['goals_against'], 1),
-            'GD': round(goal_features['goal_diff'], 1),
-            'Points': stats['points']
-        })
-    
-    table_df = pd.DataFrame(table_data)
-    table_df = table_df.sort_values('Position').reset_index(drop=True)
-    
-    print(table_df.to_string(index=False))
-    
-    # Highlight key positions
-    print("\n🏆 Champions League Places:")
-    for i in range(4):
-        team = table_df.iloc[i]
-        print(f"  {team['Position']}. {team['Team']:<20} - {team['Points']} points")
-    
-    print("\n⬇️  Relegation Zone:")
-    for i in range(-3, 0):
-        team = table_df.iloc[i]
-        print(f"  {team['Position']}. {team['Team']:<20} - {team['Points']} points")
-    
     # Save outputs
     print("\n" + "="*70)
     print("SAVING RESULTS")
     print("="*70)
     
     predictions_df = pd.DataFrame(all_predictions)
-    predictions_df.to_csv('predictions/predictions.csv', index=False)
+    predictions_df.to_csv('predictions.csv', index=False)
     print("✓ Predictions saved to: predictions.csv")
     
     df.to_csv('fixtures_2025_2026_simulated.csv', index=False)
     print("✓ Complete fixtures saved to: fixtures_2025_2026_simulated.csv")
-    
-    table_df.to_csv('predictions/predicted_final_table_2025_2026.csv', index=False)
-    print("✓ Final table saved to: predicted_final_table_2025_2026.csv")
     
     print("\n" + "="*70)
     print("KEY IMPROVEMENTS IN THIS SIMULATION")
@@ -455,7 +437,7 @@ This approach provides realistic goal feature values throughout the
 entire season without requiring actual future goal data!
     """)
     
-    return predictions_df, table_df
+    return predictions_df
 
 
 # ============================================================================
@@ -523,12 +505,17 @@ if __name__ == "__main__":
         else:
             print("✓ Model loaded successfully\n")
             
-            predictions, final_table = simulate_season(
+            # ================================================================
+            # UPDATE THIS LINE TO CHANGE WHICH MATCHWEEK TO START PREDICTING FROM
+            # Example: If you have results through MW10, set this to 11
+            #          If you have results through MW15, set this to 16
+            # ================================================================
+            predictions = simulate_season(
                 model=clf.model,
                 fixtures_path='fixtures_2025_2026.csv',
                 team_avg_path='team_matchweek_goal_averages.json',
                 h2h_avg_path='h2h_goal_averages.json',
-                start_simulation_from_mw=8
+                start_simulation_from_mw=8  # ← UPDATE THIS NUMBER
             )
             
             if predictions is not None:
@@ -539,7 +526,6 @@ if __name__ == "__main__":
                 print(f"Files saved:")
                 print("  - predictions.csv")
                 print("  - fixtures_2025_2026_simulated.csv")
-                print("  - predicted_final_table_2025_2026.csv")
     
     except ImportError as e:
         print(f"❌ Could not import model: {e}")
