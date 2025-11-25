@@ -1,87 +1,37 @@
 match_week,date,home_team,away_team,predicted_result
-8,2025/10/18,Brighton,Newcastle,H
-8,2025/10/18,Burnley,Leeds,A
-8,2025/10/18,Crystal Palace,Bournemouth,H
-8,2025/10/18,Fulham,Arsenal,A
-8,2025/10/18,Liverpool,Man United,H
-8,2025/10/18,Man City,Everton,H
-8,2025/10/18,Nott'm Forest,Chelsea,A
-8,2025/10/18,Sunderland,Wolves,H
-8,2025/10/18,Tottenham,Aston Villa,H
-8,2025/10/18,West Ham,Brentford,H
-9,2025/10/25,Bournemouth,Nott'm Forest,H
-9,2025/10/25,Arsenal,Crystal Palace,H
-9,2025/10/25,Aston Villa,Man City,D
-9,2025/10/25,Brentford,Liverpool,A
-9,2025/10/25,Chelsea,Sunderland,H
-9,2025/10/25,Everton,Tottenham,A
-9,2025/10/25,Leeds,West Ham,H
-9,2025/10/25,Man United,Brighton,H
-9,2025/10/25,Newcastle,Fulham,H
-9,2025/10/25,Wolves,Burnley,H
-10,2025/11/01,Brighton,Leeds,A
-10,2025/11/01,Burnley,Arsenal,A
-10,2025/11/01,Crystal Palace,Brentford,H
-10,2025/11/01,Fulham,Wolves,H
-10,2025/11/01,Liverpool,Aston Villa,H
-10,2025/11/01,Man City,Bournemouth,H
-10,2025/11/01,Nott'm Forest,Man United,A
-10,2025/11/01,Sunderland,Everton,H
-10,2025/11/01,Tottenham,Chelsea,H
-10,2025/11/01,West Ham,Newcastle,A
-11,2025/11/08,Aston Villa,Bournemouth,H
-11,2025/11/08,Brentford,Newcastle,A
-11,2025/11/08,Chelsea,Wolves,H
-11,2025/11/08,Crystal Palace,Brighton,H
-11,2025/11/08,Everton,Fulham,H
-11,2025/11/08,Man City,Liverpool,H
-11,2025/11/08,Nott'm Forest,Leeds,A
-11,2025/11/08,Sunderland,Arsenal,H
-11,2025/11/08,Tottenham,Man United,H
-11,2025/11/08,West Ham,Burnley,H
-12,2025/11/22,Bournemouth,West Ham,H
-12,2025/11/22,Arsenal,Tottenham,H
-12,2025/11/22,Brighton,Brentford,H
-12,2025/11/22,Burnley,Chelsea,A
-12,2025/11/22,Fulham,Sunderland,A
-12,2025/11/22,Leeds,Aston Villa,H
-12,2025/11/22,Liverpool,Nott'm Forest,H
-12,2025/11/22,Man United,Everton,H
-12,2025/11/22,Newcastle,Man City,H
-12,2025/11/22,Wolves,Crystal Palace,A
 13,2025/11/29,Aston Villa,Wolves,H
 13,2025/11/29,Brentford,Burnley,H
 13,2025/11/29,Chelsea,Arsenal,H
 13,2025/11/29,Crystal Palace,Man United,H
-13,2025/11/29,Everton,Newcastle,A
+13,2025/11/29,Everton,Newcastle,H
 13,2025/11/29,Man City,Leeds,H
-13,2025/11/29,Nott'm Forest,Brighton,A
+13,2025/11/29,Nott'm Forest,Brighton,H
 13,2025/11/29,Sunderland,Bournemouth,H
 13,2025/11/29,Tottenham,Fulham,H
-13,2025/11/29,West Ham,Liverpool,A
+13,2025/11/29,West Ham,Liverpool,H
 14,2025/12/03,Bournemouth,Everton,H
 14,2025/12/03,Arsenal,Brentford,H
 14,2025/12/03,Brighton,Aston Villa,H
 14,2025/12/03,Burnley,Crystal Palace,A
 14,2025/12/03,Fulham,Man City,A
-14,2025/12/03,Leeds,Chelsea,H
+14,2025/12/03,Leeds,Chelsea,A
 14,2025/12/03,Liverpool,Sunderland,H
 14,2025/12/03,Man United,West Ham,H
-14,2025/12/03,Newcastle,Tottenham,H
-14,2025/12/03,Wolves,Nott'm Forest,H
-15,2025/12/06,Bournemouth,Chelsea,H
-15,2025/12/06,Aston Villa,Arsenal,A
+14,2025/12/03,Newcastle,Tottenham,A
+14,2025/12/03,Wolves,Nott'm Forest,A
+15,2025/12/06,Bournemouth,Chelsea,A
+15,2025/12/06,Aston Villa,Arsenal,H
 15,2025/12/06,Brighton,West Ham,H
 15,2025/12/06,Everton,Nott'm Forest,H
 15,2025/12/06,Fulham,Crystal Palace,A
-15,2025/12/06,Leeds,Liverpool,D
+15,2025/12/06,Leeds,Liverpool,A
 15,2025/12/06,Man City,Sunderland,H
-15,2025/12/06,Newcastle,Burnley,H
+15,2025/12/06,Newcastle,Burnley,A
 15,2025/12/06,Tottenham,Brentford,H
 15,2025/12/06,Wolves,Man United,A
 16,2025/12/13,Arsenal,Wolves,H
-16,2025/12/13,Brentford,Leeds,A
-16,2025/12/13,Burnley,Fulham,A
+16,2025/12/13,Brentford,Leeds,H
+16,2025/12/13,Burnley,Fulham,D
 16,2025/12/13,Chelsea,Everton,H
 16,2025/12/13,Crystal Palace,Man City,H
 16,2025/12/13,Liverpool,Brighton,H
@@ -94,29 +44,29 @@ match_week,date,home_team,away_team,predicted_result
 17,2025/12/20,Brighton,Sunderland,H
 17,2025/12/20,Everton,Arsenal,A
 17,2025/12/20,Fulham,Nott'm Forest,H
-17,2025/12/20,Leeds,Crystal Palace,H
+17,2025/12/20,Leeds,Crystal Palace,A
 17,2025/12/20,Man City,West Ham,H
-17,2025/12/20,Newcastle,Chelsea,H
+17,2025/12/20,Newcastle,Chelsea,A
 17,2025/12/20,Tottenham,Liverpool,H
 17,2025/12/20,Wolves,Brentford,A
 18,2025/12/27,Arsenal,Brighton,H
-18,2025/12/27,Brentford,Bournemouth,A
-18,2025/12/27,Burnley,Everton,A
+18,2025/12/27,Brentford,Bournemouth,H
+18,2025/12/27,Burnley,Everton,H
 18,2025/12/27,Chelsea,Aston Villa,H
 18,2025/12/27,Crystal Palace,Tottenham,H
 18,2025/12/27,Liverpool,Wolves,H
 18,2025/12/27,Man United,Newcastle,H
 18,2025/12/27,Nott'm Forest,Man City,A
 18,2025/12/27,Sunderland,Leeds,H
-18,2025/12/27,West Ham,Fulham,A
+18,2025/12/27,West Ham,Fulham,H
 19,2025/12/30,Arsenal,Aston Villa,H
 19,2025/12/30,Brentford,Tottenham,A
-19,2025/12/30,Burnley,Newcastle,A
+19,2025/12/30,Burnley,Newcastle,H
 19,2025/12/30,Chelsea,Bournemouth,H
 19,2025/12/30,Crystal Palace,Fulham,H
 19,2025/12/30,Liverpool,Leeds,H
 19,2025/12/30,Man United,Wolves,H
-19,2025/12/30,Nott'm Forest,Everton,A
+19,2025/12/30,Nott'm Forest,Everton,H
 19,2025/12/30,Sunderland,Man City,A
 19,2025/12/30,West Ham,Brighton,A
 20,2026/01/03,Bournemouth,Arsenal,A
@@ -124,41 +74,41 @@ match_week,date,home_team,away_team,predicted_result
 20,2026/01/03,Brighton,Burnley,H
 20,2026/01/03,Everton,Brentford,H
 20,2026/01/03,Fulham,Liverpool,A
-20,2026/01/03,Leeds,Man United,H
+20,2026/01/03,Leeds,Man United,A
 20,2026/01/03,Man City,Chelsea,H
-20,2026/01/03,Newcastle,Crystal Palace,H
+20,2026/01/03,Newcastle,Crystal Palace,A
 20,2026/01/03,Tottenham,Sunderland,H
 20,2026/01/03,Wolves,West Ham,A
 21,2026/01/07,Bournemouth,Tottenham,A
 21,2026/01/07,Arsenal,Liverpool,H
-21,2026/01/07,Brentford,Sunderland,A
+21,2026/01/07,Brentford,Sunderland,H
 21,2026/01/07,Burnley,Man United,A
 21,2026/01/07,Crystal Palace,Aston Villa,H
 21,2026/01/07,Everton,Wolves,H
-21,2026/01/07,Fulham,Chelsea,D
+21,2026/01/07,Fulham,Chelsea,A
 21,2026/01/07,Man City,Brighton,H
-21,2026/01/07,Newcastle,Leeds,H
+21,2026/01/07,Newcastle,Leeds,D
 21,2026/01/07,West Ham,Nott'm Forest,H
 22,2026/01/17,Aston Villa,Everton,H
 22,2026/01/17,Brighton,Bournemouth,H
 22,2026/01/17,Chelsea,Brentford,H
-22,2026/01/17,Leeds,Fulham,H
+22,2026/01/17,Leeds,Fulham,A
 22,2026/01/17,Liverpool,Burnley,H
-22,2026/01/17,Man United,Man City,A
+22,2026/01/17,Man United,Man City,H
 22,2026/01/17,Nott'm Forest,Arsenal,A
-22,2026/01/17,Sunderland,Crystal Palace,H
+22,2026/01/17,Sunderland,Crystal Palace,A
 22,2026/01/17,Tottenham,West Ham,H
 22,2026/01/17,Wolves,Newcastle,A
 23,2026/01/24,Bournemouth,Liverpool,A
 23,2026/01/24,Arsenal,Man United,H
-23,2026/01/24,Brentford,Nott'm Forest,A
+23,2026/01/24,Brentford,Nott'm Forest,H
 23,2026/01/24,Burnley,Tottenham,A
 23,2026/01/24,Crystal Palace,Chelsea,H
 23,2026/01/24,Everton,Leeds,H
 23,2026/01/24,Fulham,Brighton,A
 23,2026/01/24,Man City,Wolves,H
-23,2026/01/24,Newcastle,Aston Villa,H
-23,2026/01/24,West Ham,Sunderland,A
+23,2026/01/24,Newcastle,Aston Villa,A
+23,2026/01/24,West Ham,Sunderland,H
 24,2026/01/31,Aston Villa,Brentford,H
 24,2026/01/31,Brighton,Everton,H
 24,2026/01/31,Chelsea,West Ham,H
@@ -167,17 +117,17 @@ match_week,date,home_team,away_team,predicted_result
 24,2026/01/31,Man United,Fulham,H
 24,2026/01/31,Nott'm Forest,Crystal Palace,A
 24,2026/01/31,Sunderland,Burnley,H
-24,2026/01/31,Tottenham,Man City,A
+24,2026/01/31,Tottenham,Man City,H
 24,2026/01/31,Wolves,Bournemouth,A
 25,2026/02/07,Bournemouth,Aston Villa,A
 25,2026/02/07,Arsenal,Sunderland,H
 25,2026/02/07,Brighton,Crystal Palace,H
 25,2026/02/07,Burnley,West Ham,A
 25,2026/02/07,Fulham,Everton,A
-25,2026/02/07,Leeds,Nott'm Forest,H
-25,2026/02/07,Liverpool,Man City,D
+25,2026/02/07,Leeds,Nott'm Forest,A
+25,2026/02/07,Liverpool,Man City,H
 25,2026/02/07,Man United,Tottenham,H
-25,2026/02/07,Newcastle,Brentford,H
+25,2026/02/07,Newcastle,Brentford,A
 25,2026/02/07,Wolves,Chelsea,A
 26,2026/02/11,Aston Villa,Brighton,H
 26,2026/02/11,Brentford,Arsenal,A
@@ -186,9 +136,9 @@ match_week,date,home_team,away_team,predicted_result
 26,2026/02/11,Everton,Bournemouth,H
 26,2026/02/11,Man City,Fulham,H
 26,2026/02/11,Nott'm Forest,Wolves,H
-26,2026/02/11,Sunderland,Liverpool,D
+26,2026/02/11,Sunderland,Liverpool,A
 26,2026/02/11,Tottenham,Newcastle,H
-26,2026/02/11,West Ham,Man United,A
+26,2026/02/11,West Ham,Man United,H
 27,2026/02/21,Aston Villa,Leeds,H
 27,2026/02/21,Brentford,Brighton,A
 27,2026/02/21,Chelsea,Burnley,H
@@ -199,7 +149,7 @@ match_week,date,home_team,away_team,predicted_result
 27,2026/02/21,Sunderland,Fulham,H
 27,2026/02/21,Tottenham,Arsenal,A
 27,2026/02/21,West Ham,Bournemouth,H
-28,2026/02/28,Bournemouth,Sunderland,A
+28,2026/02/28,Bournemouth,Sunderland,H
 28,2026/02/28,Arsenal,Chelsea,H
 28,2026/02/28,Brighton,Nott'm Forest,H
 28,2026/02/28,Burnley,Brentford,A
@@ -207,16 +157,16 @@ match_week,date,home_team,away_team,predicted_result
 28,2026/02/28,Leeds,Man City,A
 28,2026/02/28,Liverpool,West Ham,H
 28,2026/02/28,Man United,Crystal Palace,H
-28,2026/02/28,Newcastle,Everton,H
+28,2026/02/28,Newcastle,Everton,A
 28,2026/02/28,Wolves,Aston Villa,A
 29,2026/03/04,Bournemouth,Brentford,H
 29,2026/03/04,Aston Villa,Chelsea,H
 29,2026/03/04,Brighton,Arsenal,A
 29,2026/03/04,Everton,Burnley,H
-29,2026/03/04,Fulham,West Ham,H
+29,2026/03/04,Fulham,West Ham,A
 29,2026/03/04,Leeds,Sunderland,A
 29,2026/03/04,Man City,Nott'm Forest,H
-29,2026/03/04,Newcastle,Man United,H
+29,2026/03/04,Newcastle,Man United,A
 29,2026/03/04,Tottenham,Crystal Palace,H
 29,2026/03/04,Wolves,Liverpool,A
 30,2026/03/14,Arsenal,Everton,H
@@ -226,17 +176,17 @@ match_week,date,home_team,away_team,predicted_result
 30,2026/03/14,Crystal Palace,Leeds,H
 30,2026/03/14,Liverpool,Tottenham,H
 30,2026/03/14,Man United,Aston Villa,H
-30,2026/03/14,Nott'm Forest,Fulham,A
-30,2026/03/14,Sunderland,Brighton,H
-30,2026/03/14,West Ham,Man City,A
-31,2026/03/21,Bournemouth,Man United,A
+30,2026/03/14,Nott'm Forest,Fulham,H
+30,2026/03/14,Sunderland,Brighton,A
+30,2026/03/14,West Ham,Man City,D
+31,2026/03/21,Bournemouth,Man United,H
 31,2026/03/21,Aston Villa,West Ham,H
 31,2026/03/21,Brighton,Liverpool,A
 31,2026/03/21,Everton,Chelsea,H
 31,2026/03/21,Fulham,Burnley,H
 31,2026/03/21,Leeds,Brentford,A
 31,2026/03/21,Man City,Crystal Palace,H
-31,2026/03/21,Newcastle,Sunderland,H
+31,2026/03/21,Newcastle,Sunderland,A
 31,2026/03/21,Tottenham,Nott'm Forest,H
 31,2026/03/21,Wolves,Arsenal,A
 32,2026/04/11,Arsenal,Bournemouth,H
@@ -256,18 +206,18 @@ match_week,date,home_team,away_team,predicted_result
 33,2026/04/18,Everton,Liverpool,A
 33,2026/04/18,Leeds,Wolves,A
 33,2026/04/18,Man City,Arsenal,D
-33,2026/04/18,Newcastle,Bournemouth,H
-33,2026/04/18,Nott'm Forest,Burnley,A
+33,2026/04/18,Newcastle,Bournemouth,A
+33,2026/04/18,Nott'm Forest,Burnley,H
 33,2026/04/18,Tottenham,Brighton,H
 34,2026/04/25,Bournemouth,Leeds,H
 34,2026/04/25,Arsenal,Newcastle,H
 34,2026/04/25,Brighton,Chelsea,H
 34,2026/04/25,Burnley,Man City,A
-34,2026/04/25,Fulham,Aston Villa,H
+34,2026/04/25,Fulham,Aston Villa,A
 34,2026/04/25,Liverpool,Crystal Palace,H
 34,2026/04/25,Man United,Brentford,H
 34,2026/04/25,Sunderland,Nott'm Forest,H
-34,2026/04/25,West Ham,Everton,A
+34,2026/04/25,West Ham,Everton,H
 34,2026/04/25,Wolves,Tottenham,A
 35,2026/05/02,Bournemouth,Crystal Palace,H
 35,2026/05/02,Arsenal,Fulham,H
@@ -275,17 +225,17 @@ match_week,date,home_team,away_team,predicted_result
 35,2026/05/02,Brentford,West Ham,H
 35,2026/05/02,Chelsea,Nott'm Forest,H
 35,2026/05/02,Everton,Man City,A
-35,2026/05/02,Leeds,Burnley,H
+35,2026/05/02,Leeds,Burnley,A
 35,2026/05/02,Man United,Liverpool,A
-35,2026/05/02,Newcastle,Brighton,H
+35,2026/05/02,Newcastle,Brighton,A
 35,2026/05/02,Wolves,Sunderland,A
 36,2026/05/09,Brighton,Wolves,H
 36,2026/05/09,Burnley,Aston Villa,A
 36,2026/05/09,Crystal Palace,Everton,H
-36,2026/05/09,Fulham,Bournemouth,H
+36,2026/05/09,Fulham,Bournemouth,A
 36,2026/05/09,Liverpool,Chelsea,H
 36,2026/05/09,Man City,Brentford,H
-36,2026/05/09,Nott'm Forest,Newcastle,A
+36,2026/05/09,Nott'm Forest,Newcastle,H
 36,2026/05/09,Sunderland,Man United,H
 36,2026/05/09,Tottenham,Leeds,H
 36,2026/05/09,West Ham,Arsenal,A
@@ -297,10 +247,10 @@ match_week,date,home_team,away_team,predicted_result
 37,2026/05/17,Everton,Sunderland,A
 37,2026/05/17,Leeds,Brighton,A
 37,2026/05/17,Man United,Nott'm Forest,H
-37,2026/05/17,Newcastle,West Ham,H
+37,2026/05/17,Newcastle,West Ham,A
 37,2026/05/17,Wolves,Fulham,A
 38,2026/05/24,Brighton,Man United,H
-38,2026/05/24,Burnley,Wolves,A
+38,2026/05/24,Burnley,Wolves,H
 38,2026/05/24,Crystal Palace,Arsenal,A
 38,2026/05/24,Fulham,Newcastle,H
 38,2026/05/24,Liverpool,Brentford,H
@@ -308,4 +258,4 @@ match_week,date,home_team,away_team,predicted_result
 38,2026/05/24,Nott'm Forest,Bournemouth,A
 38,2026/05/24,Sunderland,Chelsea,H
 38,2026/05/24,Tottenham,Everton,H
-38,2026/05/24,West Ham,Leeds,A
+38,2026/05/24,West Ham,Leeds,H

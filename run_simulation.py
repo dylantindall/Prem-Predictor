@@ -515,7 +515,7 @@ if __name__ == "__main__":
                 fixtures_path='fixtures_2025_2026.csv',
                 team_avg_path='team_matchweek_goal_averages.json',
                 h2h_avg_path='h2h_goal_averages.json',
-                start_simulation_from_mw=8  # ← UPDATE THIS NUMBER
+                start_simulation_from_mw=13  # ← UPDATE THIS NUMBER
             )
             
             if predictions is not None:

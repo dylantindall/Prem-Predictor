@@ -1,0 +1,381 @@
+match_week,date,home_team,away_team,predicted_result,actual_result,actual_home_goals,actual_away_goals,prediction_correct,prediction_status
+1,2025/08/15,Liverpool,Bournemouth,H,H,4.0,2.0,True,correct
+1,2025/08/16,Aston Villa,Newcastle,D,D,0.0,0.0,True,correct
+1,2025/08/16,Brighton,Fulham,D,D,1.0,1.0,True,correct
+1,2025/08/16,Sunderland,West Ham,H,H,3.0,0.0,True,correct
+1,2025/08/16,Tottenham,Burnley,H,H,3.0,0.0,True,correct
+1,2025/08/16,Wolves,Man City,A,A,0.0,4.0,True,correct
+1,2025/08/17,Chelsea,Crystal Palace,D,D,0.0,0.0,True,correct
+1,2025/08/17,Nott'm Forest,Brentford,H,H,3.0,1.0,True,correct
+1,2025/08/17,Man United,Arsenal,A,A,0.0,1.0,True,correct
+1,2025/08/18,Leeds,Everton,H,H,1.0,0.0,True,correct
+2,2025/08/22,West Ham,Chelsea,A,A,1.0,5.0,True,correct
+2,2025/08/23,Man City,Tottenham,A,A,0.0,2.0,True,correct
+2,2025/08/23,Bournemouth,Wolves,H,H,1.0,0.0,True,correct
+2,2025/08/23,Brentford,Aston Villa,H,H,1.0,0.0,True,correct
+2,2025/08/23,Burnley,Sunderland,H,H,2.0,0.0,True,correct
+2,2025/08/23,Arsenal,Leeds,H,H,5.0,0.0,True,correct
+2,2025/08/24,Crystal Palace,Nott'm Forest,D,D,1.0,1.0,True,correct
+2,2025/08/24,Everton,Brighton,H,H,2.0,0.0,True,correct
+2,2025/08/24,Fulham,Man United,D,D,1.0,1.0,True,correct
+2,2025/08/25,Newcastle,Liverpool,A,A,2.0,3.0,True,correct
+3,2025/08/30,Chelsea,Fulham,H,H,2.0,0.0,True,correct
+3,2025/08/30,Man United,Burnley,H,H,3.0,2.0,True,correct
+3,2025/08/30,Sunderland,Brentford,H,H,2.0,1.0,True,correct
+3,2025/08/30,Tottenham,Bournemouth,A,A,0.0,1.0,True,correct
+3,2025/08/30,Wolves,Everton,A,A,2.0,3.0,True,correct
+3,2025/08/30,Leeds,Newcastle,D,D,0.0,0.0,True,correct
+3,2025/08/31,Brighton,Man City,H,H,2.0,1.0,True,correct
+3,2025/08/31,Nott'm Forest,West Ham,A,A,0.0,3.0,True,correct
+3,2025/08/31,Liverpool,Arsenal,H,H,1.0,0.0,True,correct
+3,2025/08/31,Aston Villa,Crystal Palace,A,A,0.0,3.0,True,correct
+4,2025/09/13,Arsenal,Nott'm Forest,H,H,3.0,0.0,True,correct
+4,2025/09/13,Bournemouth,Brighton,H,H,2.0,1.0,True,correct
+4,2025/09/13,Crystal Palace,Sunderland,D,D,0.0,0.0,True,correct
+4,2025/09/13,Everton,Aston Villa,D,D,0.0,0.0,True,correct
+4,2025/09/13,Fulham,Leeds,H,H,1.0,0.0,True,correct
+4,2025/09/13,Newcastle,Wolves,H,H,1.0,0.0,True,correct
+4,2025/09/13,West Ham,Tottenham,A,A,0.0,3.0,True,correct
+4,2025/09/13,Brentford,Chelsea,D,D,2.0,2.0,True,correct
+4,2025/09/14,Burnley,Liverpool,A,A,0.0,1.0,True,correct
+4,2025/09/14,Man City,Man United,H,H,3.0,0.0,True,correct
+5,2025/09/20,Liverpool,Everton,H,H,2.0,1.0,True,correct
+5,2025/09/20,Bournemouth,Newcastle,D,D,0.0,0.0,True,correct
+5,2025/09/20,Brighton,Tottenham,D,D,2.0,2.0,True,correct
+5,2025/09/20,Burnley,Nott'm Forest,D,D,1.0,1.0,True,correct
+5,2025/09/20,West Ham,Crystal Palace,A,A,1.0,2.0,True,correct
+5,2025/09/20,Wolves,Leeds,A,A,1.0,3.0,True,correct
+5,2025/09/20,Man United,Chelsea,H,H,2.0,1.0,True,correct
+5,2025/09/20,Fulham,Brentford,H,H,3.0,1.0,True,correct
+5,2025/09/21,Sunderland,Aston Villa,D,D,1.0,1.0,True,correct
+5,2025/09/21,Arsenal,Man City,D,D,1.0,1.0,True,correct
+6,2025/09/27,Brentford,Man United,H,H,3.0,1.0,True,correct
+6,2025/09/27,Aston Villa,Fulham,H,H,3.0,1.0,True,correct
+6,2025/09/27,Chelsea,Brighton,A,A,1.0,3.0,True,correct
+6,2025/09/27,Crystal Palace,Liverpool,H,H,2.0,1.0,True,correct
+6,2025/09/27,Leeds,Bournemouth,D,D,2.0,2.0,True,correct
+6,2025/09/27,Man City,Burnley,H,H,5.0,1.0,True,correct
+6,2025/09/27,Nott'm Forest,Sunderland,A,A,0.0,1.0,True,correct
+6,2025/09/27,Tottenham,Wolves,D,D,1.0,1.0,True,correct
+6,2025/09/27,Newcastle,Arsenal,A,A,1.0,2.0,True,correct
+6,2025/09/28,Everton,West Ham,D,D,1.0,1.0,True,correct
+7,2025/10/04,Bournemouth,Fulham,H,H,3.0,1.0,True,correct
+7,2025/10/04,Arsenal,West Ham,H,H,2.0,0.0,True,correct
+7,2025/10/04,Aston Villa,Burnley,H,H,2.0,1.0,True,correct
+7,2025/10/04,Brentford,Man City,A,A,0.0,1.0,True,correct
+7,2025/10/04,Chelsea,Liverpool,H,H,2.0,1.0,True,correct
+7,2025/10/04,Everton,Crystal Palace,H,H,2.0,1.0,True,correct
+7,2025/10/04,Leeds,Tottenham,A,A,1.0,2.0,True,correct
+7,2025/10/04,Man United,Sunderland,H,H,2.0,0.0,True,correct
+7,2025/10/04,Newcastle,Nott'm Forest,H,H,2.0,0.0,True,correct
+7,2025/10/04,Wolves,Brighton,D,D,1.0,1.0,True,correct
+8,2025/10/18,Brighton,Newcastle,H,H,2.0,1.0,True,correct
+8,2025/10/18,Burnley,Leeds,A,H,2.0,0.0,False,incorrect
+8,2025/10/18,Crystal Palace,Bournemouth,H,D,3.0,3.0,False,incorrect
+8,2025/10/18,Fulham,Arsenal,A,A,0.0,1.0,True,correct
+8,2025/10/18,Liverpool,Man United,H,A,1.0,2.0,False,incorrect
+8,2025/10/18,Man City,Everton,H,H,2.0,0.0,True,correct
+8,2025/10/18,Nott'm Forest,Chelsea,A,A,0.0,3.0,True,correct
+8,2025/10/18,Sunderland,Wolves,H,H,2.0,0.0,True,correct
+8,2025/10/18,Tottenham,Aston Villa,H,A,1.0,2.0,False,incorrect
+8,2025/10/18,West Ham,Brentford,H,A,0.0,2.0,False,incorrect
+9,2025/10/25,Bournemouth,Nott'm Forest,H,D,3.0,3.0,False,incorrect
+9,2025/10/25,Arsenal,Crystal Palace,H,H,1.0,0.0,True,correct
+9,2025/10/25,Aston Villa,Man City,D,H,1.0,0.0,False,incorrect
+9,2025/10/25,Brentford,Liverpool,A,H,3.0,2.0,False,incorrect
+9,2025/10/25,Chelsea,Sunderland,H,A,1.0,2.0,False,incorrect
+9,2025/10/25,Everton,Tottenham,A,A,0.0,3.0,True,correct
+9,2025/10/25,Leeds,West Ham,H,H,2.0,1.0,True,correct
+9,2025/10/25,Man United,Brighton,H,H,4.0,2.0,True,correct
+9,2025/10/25,Newcastle,Fulham,H,H,2.0,1.0,True,correct
+9,2025/10/25,Wolves,Burnley,H,A,2.0,3.0,False,incorrect
+10,2025/11/01,Brighton,Leeds,A,H,3.0,0.0,False,incorrect
+10,2025/11/01,Burnley,Arsenal,A,A,0.0,2.0,True,correct
+10,2025/11/01,Crystal Palace,Brentford,H,H,2.0,0.0,True,correct
+10,2025/11/01,Fulham,Wolves,H,H,3.0,0.0,True,correct
+10,2025/11/01,Liverpool,Aston Villa,H,H,2.0,0.0,True,correct
+10,2025/11/01,Man City,Bournemouth,H,H,3.0,1.0,True,correct
+10,2025/11/01,Nott'm Forest,Man United,A,D,2.0,2.0,False,incorrect
+10,2025/11/01,Sunderland,Everton,H,D,1.0,1.0,False,incorrect
+10,2025/11/01,Tottenham,Chelsea,H,A,0.0,1.0,False,incorrect
+10,2025/11/01,West Ham,Newcastle,A,H,3.0,1.0,False,incorrect
+11,2025/11/08,Aston Villa,Bournemouth,H,H,4.0,0.0,True,correct
+11,2025/11/08,Brentford,Newcastle,A,H,3.0,1.0,False,incorrect
+11,2025/11/08,Chelsea,Wolves,H,H,3.0,0.0,True,correct
+11,2025/11/08,Crystal Palace,Brighton,H,D,0.0,0.0,False,incorrect
+11,2025/11/08,Everton,Fulham,H,H,2.0,0.0,True,correct
+11,2025/11/08,Man City,Liverpool,H,H,3.0,0.0,True,correct
+11,2025/11/08,Nott'm Forest,Leeds,A,H,3.0,1.0,False,incorrect
+11,2025/11/08,Sunderland,Arsenal,H,D,2.0,2.0,False,incorrect
+11,2025/11/08,Tottenham,Man United,H,D,2.0,2.0,False,incorrect
+11,2025/11/08,West Ham,Burnley,H,H,3.0,2.0,True,correct
+12,2025/11/22,Bournemouth,West Ham,H,D,2.0,2.0,False,incorrect
+12,2025/11/22,Arsenal,Tottenham,H,H,4.0,1.0,True,correct
+12,2025/11/22,Brighton,Brentford,H,H,2.0,1.0,True,correct
+12,2025/11/22,Burnley,Chelsea,A,A,0.0,2.0,True,correct
+12,2025/11/22,Fulham,Sunderland,A,H,1.0,0.0,False,incorrect
+12,2025/11/22,Leeds,Aston Villa,H,A,1.0,2.0,False,incorrect
+12,2025/11/22,Liverpool,Nott'm Forest,H,A,0.0,3.0,False,incorrect
+12,2025/11/22,Man United,Everton,H,A,0.0,1.0,False,incorrect
+12,2025/11/22,Newcastle,Man City,H,H,2.0,1.0,True,correct
+12,2025/11/22,Wolves,Crystal Palace,A,A,0.0,2.0,True,correct
+13,2025/11/29,Aston Villa,Wolves,H,,,,,pending
+13,2025/11/29,Brentford,Burnley,H,,,,,pending
+13,2025/11/29,Chelsea,Arsenal,H,,,,,pending
+13,2025/11/29,Crystal Palace,Man United,H,,,,,pending
+13,2025/11/29,Everton,Newcastle,A,,,,,pending
+13,2025/11/29,Man City,Leeds,H,,,,,pending
+13,2025/11/29,Nott'm Forest,Brighton,A,,,,,pending
+13,2025/11/29,Sunderland,Bournemouth,H,,,,,pending
+13,2025/11/29,Tottenham,Fulham,H,,,,,pending
+13,2025/11/29,West Ham,Liverpool,A,,,,,pending
+14,2025/12/03,Bournemouth,Everton,H,,,,,pending
+14,2025/12/03,Arsenal,Brentford,H,,,,,pending
+14,2025/12/03,Brighton,Aston Villa,H,,,,,pending
+14,2025/12/03,Burnley,Crystal Palace,A,,,,,pending
+14,2025/12/03,Fulham,Man City,A,,,,,pending
+14,2025/12/03,Leeds,Chelsea,H,,,,,pending
+14,2025/12/03,Liverpool,Sunderland,H,,,,,pending
+14,2025/12/03,Man United,West Ham,H,,,,,pending
+14,2025/12/03,Newcastle,Tottenham,H,,,,,pending
+14,2025/12/03,Wolves,Nott'm Forest,H,,,,,pending
+15,2025/12/06,Bournemouth,Chelsea,H,,,,,pending
+15,2025/12/06,Aston Villa,Arsenal,A,,,,,pending
+15,2025/12/06,Brighton,West Ham,H,,,,,pending
+15,2025/12/06,Everton,Nott'm Forest,H,,,,,pending
+15,2025/12/06,Fulham,Crystal Palace,A,,,,,pending
+15,2025/12/06,Leeds,Liverpool,D,,,,,pending
+15,2025/12/06,Man City,Sunderland,H,,,,,pending
+15,2025/12/06,Newcastle,Burnley,H,,,,,pending
+15,2025/12/06,Tottenham,Brentford,H,,,,,pending
+15,2025/12/06,Wolves,Man United,A,,,,,pending
+16,2025/12/13,Arsenal,Wolves,H,,,,,pending
+16,2025/12/13,Brentford,Leeds,A,,,,,pending
+16,2025/12/13,Burnley,Fulham,A,,,,,pending
+16,2025/12/13,Chelsea,Everton,H,,,,,pending
+16,2025/12/13,Crystal Palace,Man City,H,,,,,pending
+16,2025/12/13,Liverpool,Brighton,H,,,,,pending
+16,2025/12/13,Man United,Bournemouth,H,,,,,pending
+16,2025/12/13,Nott'm Forest,Tottenham,A,,,,,pending
+16,2025/12/13,Sunderland,Newcastle,H,,,,,pending
+16,2025/12/13,West Ham,Aston Villa,A,,,,,pending
+17,2025/12/20,Bournemouth,Burnley,H,,,,,pending
+17,2025/12/20,Aston Villa,Man United,H,,,,,pending
+17,2025/12/20,Brighton,Sunderland,H,,,,,pending
+17,2025/12/20,Everton,Arsenal,A,,,,,pending
+17,2025/12/20,Fulham,Nott'm Forest,H,,,,,pending
+17,2025/12/20,Leeds,Crystal Palace,H,,,,,pending
+17,2025/12/20,Man City,West Ham,H,,,,,pending
+17,2025/12/20,Newcastle,Chelsea,H,,,,,pending
+17,2025/12/20,Tottenham,Liverpool,H,,,,,pending
+17,2025/12/20,Wolves,Brentford,A,,,,,pending
+18,2025/12/27,Arsenal,Brighton,H,,,,,pending
+18,2025/12/27,Brentford,Bournemouth,A,,,,,pending
+18,2025/12/27,Burnley,Everton,A,,,,,pending
+18,2025/12/27,Chelsea,Aston Villa,H,,,,,pending
+18,2025/12/27,Crystal Palace,Tottenham,H,,,,,pending
+18,2025/12/27,Liverpool,Wolves,H,,,,,pending
+18,2025/12/27,Man United,Newcastle,H,,,,,pending
+18,2025/12/27,Nott'm Forest,Man City,A,,,,,pending
+18,2025/12/27,Sunderland,Leeds,H,,,,,pending
+18,2025/12/27,West Ham,Fulham,A,,,,,pending
+19,2025/12/30,Arsenal,Aston Villa,H,,,,,pending
+19,2025/12/30,Brentford,Tottenham,A,,,,,pending
+19,2025/12/30,Burnley,Newcastle,A,,,,,pending
+19,2025/12/30,Chelsea,Bournemouth,H,,,,,pending
+19,2025/12/30,Crystal Palace,Fulham,H,,,,,pending
+19,2025/12/30,Liverpool,Leeds,H,,,,,pending
+19,2025/12/30,Man United,Wolves,H,,,,,pending
+19,2025/12/30,Nott'm Forest,Everton,A,,,,,pending
+19,2025/12/30,Sunderland,Man City,A,,,,,pending
+19,2025/12/30,West Ham,Brighton,A,,,,,pending
+20,2026/01/03,Bournemouth,Arsenal,A,,,,,pending
+20,2026/01/03,Aston Villa,Nott'm Forest,H,,,,,pending
+20,2026/01/03,Brighton,Burnley,H,,,,,pending
+20,2026/01/03,Everton,Brentford,H,,,,,pending
+20,2026/01/03,Fulham,Liverpool,A,,,,,pending
+20,2026/01/03,Leeds,Man United,H,,,,,pending
+20,2026/01/03,Man City,Chelsea,H,,,,,pending
+20,2026/01/03,Newcastle,Crystal Palace,H,,,,,pending
+20,2026/01/03,Tottenham,Sunderland,H,,,,,pending
+20,2026/01/03,Wolves,West Ham,A,,,,,pending
+21,2026/01/07,Bournemouth,Tottenham,A,,,,,pending
+21,2026/01/07,Arsenal,Liverpool,H,,,,,pending
+21,2026/01/07,Brentford,Sunderland,A,,,,,pending
+21,2026/01/07,Burnley,Man United,A,,,,,pending
+21,2026/01/07,Crystal Palace,Aston Villa,H,,,,,pending
+21,2026/01/07,Everton,Wolves,H,,,,,pending
+21,2026/01/07,Fulham,Chelsea,D,,,,,pending
+21,2026/01/07,Man City,Brighton,H,,,,,pending
+21,2026/01/07,Newcastle,Leeds,H,,,,,pending
+21,2026/01/07,West Ham,Nott'm Forest,H,,,,,pending
+22,2026/01/17,Aston Villa,Everton,H,,,,,pending
+22,2026/01/17,Brighton,Bournemouth,H,,,,,pending
+22,2026/01/17,Chelsea,Brentford,H,,,,,pending
+22,2026/01/17,Leeds,Fulham,H,,,,,pending
+22,2026/01/17,Liverpool,Burnley,H,,,,,pending
+22,2026/01/17,Man United,Man City,A,,,,,pending
+22,2026/01/17,Nott'm Forest,Arsenal,A,,,,,pending
+22,2026/01/17,Sunderland,Crystal Palace,H,,,,,pending
+22,2026/01/17,Tottenham,West Ham,H,,,,,pending
+22,2026/01/17,Wolves,Newcastle,A,,,,,pending
+23,2026/01/24,Bournemouth,Liverpool,A,,,,,pending
+23,2026/01/24,Arsenal,Man United,H,,,,,pending
+23,2026/01/24,Brentford,Nott'm Forest,A,,,,,pending
+23,2026/01/24,Burnley,Tottenham,A,,,,,pending
+23,2026/01/24,Crystal Palace,Chelsea,H,,,,,pending
+23,2026/01/24,Everton,Leeds,H,,,,,pending
+23,2026/01/24,Fulham,Brighton,A,,,,,pending
+23,2026/01/24,Man City,Wolves,H,,,,,pending
+23,2026/01/24,Newcastle,Aston Villa,H,,,,,pending
+23,2026/01/24,West Ham,Sunderland,A,,,,,pending
+24,2026/01/31,Aston Villa,Brentford,H,,,,,pending
+24,2026/01/31,Brighton,Everton,H,,,,,pending
+24,2026/01/31,Chelsea,West Ham,H,,,,,pending
+24,2026/01/31,Leeds,Arsenal,A,,,,,pending
+24,2026/01/31,Liverpool,Newcastle,H,,,,,pending
+24,2026/01/31,Man United,Fulham,H,,,,,pending
+24,2026/01/31,Nott'm Forest,Crystal Palace,A,,,,,pending
+24,2026/01/31,Sunderland,Burnley,H,,,,,pending
+24,2026/01/31,Tottenham,Man City,A,,,,,pending
+24,2026/01/31,Wolves,Bournemouth,A,,,,,pending
+25,2026/02/07,Bournemouth,Aston Villa,A,,,,,pending
+25,2026/02/07,Arsenal,Sunderland,H,,,,,pending
+25,2026/02/07,Brighton,Crystal Palace,H,,,,,pending
+25,2026/02/07,Burnley,West Ham,A,,,,,pending
+25,2026/02/07,Fulham,Everton,A,,,,,pending
+25,2026/02/07,Leeds,Nott'm Forest,H,,,,,pending
+25,2026/02/07,Liverpool,Man City,D,,,,,pending
+25,2026/02/07,Man United,Tottenham,H,,,,,pending
+25,2026/02/07,Newcastle,Brentford,H,,,,,pending
+25,2026/02/07,Wolves,Chelsea,A,,,,,pending
+26,2026/02/11,Aston Villa,Brighton,H,,,,,pending
+26,2026/02/11,Brentford,Arsenal,A,,,,,pending
+26,2026/02/11,Chelsea,Leeds,H,,,,,pending
+26,2026/02/11,Crystal Palace,Burnley,H,,,,,pending
+26,2026/02/11,Everton,Bournemouth,H,,,,,pending
+26,2026/02/11,Man City,Fulham,H,,,,,pending
+26,2026/02/11,Nott'm Forest,Wolves,H,,,,,pending
+26,2026/02/11,Sunderland,Liverpool,D,,,,,pending
+26,2026/02/11,Tottenham,Newcastle,H,,,,,pending
+26,2026/02/11,West Ham,Man United,A,,,,,pending
+27,2026/02/21,Aston Villa,Leeds,H,,,,,pending
+27,2026/02/21,Brentford,Brighton,A,,,,,pending
+27,2026/02/21,Chelsea,Burnley,H,,,,,pending
+27,2026/02/21,Crystal Palace,Wolves,H,,,,,pending
+27,2026/02/21,Everton,Man United,H,,,,,pending
+27,2026/02/21,Man City,Newcastle,H,,,,,pending
+27,2026/02/21,Nott'm Forest,Liverpool,A,,,,,pending
+27,2026/02/21,Sunderland,Fulham,H,,,,,pending
+27,2026/02/21,Tottenham,Arsenal,A,,,,,pending
+27,2026/02/21,West Ham,Bournemouth,H,,,,,pending
+28,2026/02/28,Bournemouth,Sunderland,A,,,,,pending
+28,2026/02/28,Arsenal,Chelsea,H,,,,,pending
+28,2026/02/28,Brighton,Nott'm Forest,H,,,,,pending
+28,2026/02/28,Burnley,Brentford,A,,,,,pending
+28,2026/02/28,Fulham,Tottenham,A,,,,,pending
+28,2026/02/28,Leeds,Man City,A,,,,,pending
+28,2026/02/28,Liverpool,West Ham,H,,,,,pending
+28,2026/02/28,Man United,Crystal Palace,H,,,,,pending
+28,2026/02/28,Newcastle,Everton,H,,,,,pending
+28,2026/02/28,Wolves,Aston Villa,A,,,,,pending
+29,2026/03/04,Bournemouth,Brentford,H,,,,,pending
+29,2026/03/04,Aston Villa,Chelsea,H,,,,,pending
+29,2026/03/04,Brighton,Arsenal,A,,,,,pending
+29,2026/03/04,Everton,Burnley,H,,,,,pending
+29,2026/03/04,Fulham,West Ham,H,,,,,pending
+29,2026/03/04,Leeds,Sunderland,A,,,,,pending
+29,2026/03/04,Man City,Nott'm Forest,H,,,,,pending
+29,2026/03/04,Newcastle,Man United,H,,,,,pending
+29,2026/03/04,Tottenham,Crystal Palace,H,,,,,pending
+29,2026/03/04,Wolves,Liverpool,A,,,,,pending
+30,2026/03/14,Arsenal,Everton,H,,,,,pending
+30,2026/03/14,Brentford,Wolves,H,,,,,pending
+30,2026/03/14,Burnley,Bournemouth,A,,,,,pending
+30,2026/03/14,Chelsea,Newcastle,H,,,,,pending
+30,2026/03/14,Crystal Palace,Leeds,H,,,,,pending
+30,2026/03/14,Liverpool,Tottenham,H,,,,,pending
+30,2026/03/14,Man United,Aston Villa,H,,,,,pending
+30,2026/03/14,Nott'm Forest,Fulham,A,,,,,pending
+30,2026/03/14,Sunderland,Brighton,H,,,,,pending
+30,2026/03/14,West Ham,Man City,A,,,,,pending
+31,2026/03/21,Bournemouth,Man United,A,,,,,pending
+31,2026/03/21,Aston Villa,West Ham,H,,,,,pending
+31,2026/03/21,Brighton,Liverpool,A,,,,,pending
+31,2026/03/21,Everton,Chelsea,H,,,,,pending
+31,2026/03/21,Fulham,Burnley,H,,,,,pending
+31,2026/03/21,Leeds,Brentford,A,,,,,pending
+31,2026/03/21,Man City,Crystal Palace,H,,,,,pending
+31,2026/03/21,Newcastle,Sunderland,H,,,,,pending
+31,2026/03/21,Tottenham,Nott'm Forest,H,,,,,pending
+31,2026/03/21,Wolves,Arsenal,A,,,,,pending
+32,2026/04/11,Arsenal,Bournemouth,H,,,,,pending
+32,2026/04/11,Brentford,Everton,H,,,,,pending
+32,2026/04/11,Burnley,Brighton,A,,,,,pending
+32,2026/04/11,Chelsea,Man City,A,,,,,pending
+32,2026/04/11,Crystal Palace,Newcastle,H,,,,,pending
+32,2026/04/11,Liverpool,Fulham,H,,,,,pending
+32,2026/04/11,Man United,Leeds,H,,,,,pending
+32,2026/04/11,Nott'm Forest,Aston Villa,A,,,,,pending
+32,2026/04/11,Sunderland,Tottenham,H,,,,,pending
+32,2026/04/11,West Ham,Wolves,H,,,,,pending
+33,2026/04/18,Aston Villa,Sunderland,H,,,,,pending
+33,2026/04/18,Brentford,Fulham,H,,,,,pending
+33,2026/04/18,Chelsea,Man United,H,,,,,pending
+33,2026/04/18,Crystal Palace,West Ham,H,,,,,pending
+33,2026/04/18,Everton,Liverpool,A,,,,,pending
+33,2026/04/18,Leeds,Wolves,A,,,,,pending
+33,2026/04/18,Man City,Arsenal,D,,,,,pending
+33,2026/04/18,Newcastle,Bournemouth,H,,,,,pending
+33,2026/04/18,Nott'm Forest,Burnley,A,,,,,pending
+33,2026/04/18,Tottenham,Brighton,H,,,,,pending
+34,2026/04/25,Bournemouth,Leeds,H,,,,,pending
+34,2026/04/25,Arsenal,Newcastle,H,,,,,pending
+34,2026/04/25,Brighton,Chelsea,H,,,,,pending
+34,2026/04/25,Burnley,Man City,A,,,,,pending
+34,2026/04/25,Fulham,Aston Villa,H,,,,,pending
+34,2026/04/25,Liverpool,Crystal Palace,H,,,,,pending
+34,2026/04/25,Man United,Brentford,H,,,,,pending
+34,2026/04/25,Sunderland,Nott'm Forest,H,,,,,pending
+34,2026/04/25,West Ham,Everton,A,,,,,pending
+34,2026/04/25,Wolves,Tottenham,A,,,,,pending
+35,2026/05/02,Bournemouth,Crystal Palace,H,,,,,pending
+35,2026/05/02,Arsenal,Fulham,H,,,,,pending
+35,2026/05/02,Aston Villa,Tottenham,H,,,,,pending
+35,2026/05/02,Brentford,West Ham,H,,,,,pending
+35,2026/05/02,Chelsea,Nott'm Forest,H,,,,,pending
+35,2026/05/02,Everton,Man City,A,,,,,pending
+35,2026/05/02,Leeds,Burnley,H,,,,,pending
+35,2026/05/02,Man United,Liverpool,A,,,,,pending
+35,2026/05/02,Newcastle,Brighton,H,,,,,pending
+35,2026/05/02,Wolves,Sunderland,A,,,,,pending
+36,2026/05/09,Brighton,Wolves,H,,,,,pending
+36,2026/05/09,Burnley,Aston Villa,A,,,,,pending
+36,2026/05/09,Crystal Palace,Everton,H,,,,,pending
+36,2026/05/09,Fulham,Bournemouth,H,,,,,pending
+36,2026/05/09,Liverpool,Chelsea,H,,,,,pending
+36,2026/05/09,Man City,Brentford,H,,,,,pending
+36,2026/05/09,Nott'm Forest,Newcastle,A,,,,,pending
+36,2026/05/09,Sunderland,Man United,H,,,,,pending
+36,2026/05/09,Tottenham,Leeds,H,,,,,pending
+36,2026/05/09,West Ham,Arsenal,A,,,,,pending
+37,2026/05/17,Bournemouth,Man City,A,,,,,pending
+37,2026/05/17,Arsenal,Burnley,H,,,,,pending
+37,2026/05/17,Aston Villa,Liverpool,H,,,,,pending
+37,2026/05/17,Brentford,Crystal Palace,H,,,,,pending
+37,2026/05/17,Chelsea,Tottenham,H,,,,,pending
+37,2026/05/17,Everton,Sunderland,A,,,,,pending
+37,2026/05/17,Leeds,Brighton,A,,,,,pending
+37,2026/05/17,Man United,Nott'm Forest,H,,,,,pending
+37,2026/05/17,Newcastle,West Ham,H,,,,,pending
+37,2026/05/17,Wolves,Fulham,A,,,,,pending
+38,2026/05/24,Brighton,Man United,H,,,,,pending
+38,2026/05/24,Burnley,Wolves,A,,,,,pending
+38,2026/05/24,Crystal Palace,Arsenal,A,,,,,pending
+38,2026/05/24,Fulham,Newcastle,H,,,,,pending
+38,2026/05/24,Liverpool,Brentford,H,,,,,pending
+38,2026/05/24,Man City,Aston Villa,H,,,,,pending
+38,2026/05/24,Nott'm Forest,Bournemouth,A,,,,,pending
+38,2026/05/24,Sunderland,Chelsea,H,,,,,pending
+38,2026/05/24,Tottenham,Everton,H,,,,,pending
+38,2026/05/24,West Ham,Leeds,A,,,,,pending

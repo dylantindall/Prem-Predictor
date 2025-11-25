@@ -374,13 +374,15 @@ app.layout = dbc.Container([
                             {"name": "Date", "id": "date"},
                             {"name": "Home Team", "id": "home_team"},
                             {"name": "Prediction", "id": "prediction"},
-                            {"name": "Away Team", "id": "away_team"}
+                            {"name": "Away Team", "id": "away_team"},
+                            {"name": "Actual", "id": "actual_result"},
+                            {"name": "", "id": "accuracy"}
                         ],
                         style_table={
                             "borderCollapse": "collapse",
                             "margin": "0 auto",
                             "width": "100%",
-                            "maxWidth": "900px"
+                            "maxWidth": "1000px"
                         },
                         style_cell={
                             "textAlign": "center",
@@ -404,7 +406,7 @@ app.layout = dbc.Container([
                                 "if": {"column_id": "home_team"},
                                 "textAlign": "right",
                                 "paddingRight": "15px",
-                                "width": "30%"
+                                "width": "25%"
                             },
                             {
                                 "if": {"column_id": "prediction"},
@@ -416,7 +418,34 @@ app.layout = dbc.Container([
                                 "if": {"column_id": "away_team"},
                                 "textAlign": "left",
                                 "paddingLeft": "15px",
-                                "width": "30%"
+                                "width": "25%"
+                            },
+                            {
+                                "if": {"column_id": "actual_result"},
+                                "width": "12%",
+                                "fontSize": "12px"
+                            },
+                            {
+                                "if": {"column_id": "accuracy"},
+                                "width": "8%",
+                                "fontSize": "18px",
+                                "fontWeight": "bold"
+                            }
+                        ],
+                        style_data_conditional=[
+                            {
+                                "if": {
+                                    "filter_query": "{accuracy} = '✓'",
+                                    "column_id": "accuracy"
+                                },
+                                "color": "green"
+                            },
+                            {
+                                "if": {
+                                    "filter_query": "{accuracy} = '✗'",
+                                    "column_id": "accuracy"
+                                },
+                                "color": "red"
                             }
                         ],
                         style_header={
